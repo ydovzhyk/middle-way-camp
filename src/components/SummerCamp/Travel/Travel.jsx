@@ -62,22 +62,20 @@ const Travel = () => {
               style={{ marginBottom: '40px' }}
             >
               <div className={s.travel__textContentPart}>
-                <ul className={s.travel__textTitle}>
+                <ul className={s.travel__textTitle} style={{ width: '300px' }}>
                   Куди їдемо? У Карпати, Косів!
                   <li
                     className={s.travel__text}
-                    style={{ marginBottom: '15px', marginTop: '20px' }}
+                    style={{
+                      marginBottom: '15px',
+                      marginTop: '20px',
+                    }}
                   >
                     Косів - місто-курорт Івано-Франківської області.
                   </li>
-                  <li
-                    className={s.travel__text}
-                    style={{ marginBottom: '15px' }}
-                  >
-                    Приватний готель-садиба, простора територія,
-                  </li>
                   <li className={s.travel__text}>
-                    неймовірні краєвиди та екологічне середовище.
+                    Приватний готель-садиба, простора територія, неймовірні
+                    краєвиди та екологічне середовище.
                   </li>
                 </ul>
               </div>
