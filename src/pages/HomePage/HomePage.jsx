@@ -5,7 +5,6 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Middle Way - Мережа дитячих садочків та приватна школа</title>
         <meta
           name="description"
           lang="uk"
