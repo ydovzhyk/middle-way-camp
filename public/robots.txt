@@ -8,4 +8,4 @@ Disallow:
 User-agent: Googlebot-image
 Disallow:
 
-Sitemap: https://middleway.in.ua/sitemap.xml
+Sitemap: https://middle-way-capm2024.netlify.app/sitemap.xml
