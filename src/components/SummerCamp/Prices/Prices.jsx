@@ -15,7 +15,11 @@ const Prices = () => {
             className={s.prices__title}
             style={{ width: '100%', marginTop: '50px' }}
           >
-            Вартість табору 21 400 грн.
+            Вартість табору 22 500 грн.
+          </p>
+          <p className={s.prices__title} style={{ width: '100%' }}>
+            *Встигніть забронювати подорож до 20 травня та отримайте знижку,
+            вартість табору 21 400 грн!
           </p>
           <div className={s.prices__partContent}>
             <div className={s.prices__textContent}>
