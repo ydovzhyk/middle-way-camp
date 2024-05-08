@@ -1,39 +1,23 @@
-[[
-redirects
-]]
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-[
-context.production
-]
+[context.production]
   command = "npm run build"
   environment = { NODE_ENV = "production" }
 
-[[
-headers
-]]
+[[headers]]
   for = "/css/*"
-    [
-headers.values
-]
+    [headers.values]
     Cache-Control = "max-age=31536000, immutable"
 
-[[
-headers
-]]
+[[headers]]
   for = "/js/*"
-    [
-headers.values
-]
+    [headers.values]
     Cache-Control = "max-age=31536000, immutable"
 
-[[
-headers
-]]
+[[headers]]
   for = "/images/*"
-    [
-headers.values
-]
+    [headers.values]
     Cache-Control = "max-age=31536000, immutable"
