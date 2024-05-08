@@ -25,8 +25,8 @@ const SummerCamp = () => {
               <div className={s.camp__titleContent}>
                 <div className={s.camp__titleContentWrapper}>
                   <h2 className={s.camp__titleText}>
-                    ДИТЯЧИЙ ТАБІР{' '}
-                    <span className={s.camp__titleTextSecond}>В КАРПАТАХ</span>
+                    ДИТЯЧИЙ ТАБІР <br />
+                    <span className={s.camp__titleTextSecond}>У КАРПАТАХ</span>
                     <div className={s.camp__titleDivider}></div>
                     <p className={s.camp__titleTextSecond}>
                       ПЕРША ЗМІНА 2-15 ЧЕРВНЯ
