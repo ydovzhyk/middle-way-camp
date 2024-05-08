@@ -15,17 +15,26 @@ const Prices = () => {
             className={s.prices__title}
             style={{ width: '100%', marginTop: '50px' }}
           >
-            Вартість табору 22 500 грн.
+            Перша зміна ( 2-15 червня) 22500 грн.
           </p>
           <p className={s.prices__title} style={{ width: '100%' }}>
-            *Встигніть забронювати подорож до 20 травня та отримайте знижку,
-            вартість табору 21 400 грн!
+            (Рання бронь до 20 травня 21 400 грн. )
           </p>
+          <div className={s.prices__btnPart} style={{ marginBottom: '0px' }}>
+            <a
+              className={s.prices__link}
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfhlljHMVLaObSh0bHulzmZ_3nXUpbRG-L4iEyivXmSDOsyJw/viewform"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <Button text="Записатися" btnClass="btnLight" />
+            </a>
+          </div>
           <div className={s.prices__partContent}>
             <div className={s.prices__textContent}>
               <ul
                 className={s.prices__textTitle}
-                style={{ listStyleType: 'initial' }}
+                style={{ listStyleType: 'initial', marginLeft: '10px' }}
               >
                 У вартість входить:
                 <li className={s.prices__text} style={{ marginTop: '20px' }}>
@@ -57,20 +66,10 @@ const Prices = () => {
           </div>
           <p
             className={s.prices__textTitle}
-            style={{ textAlign: 'left', width: '100%' }}
+            style={{ textAlign: 'left', width: '100%', marginBottom: '50px' }}
           >
             *Дорога та страхування оплачується окремо.
           </p>
-          <div className={s.prices__btnPart}>
-            <a
-              className={s.prices__link}
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfhlljHMVLaObSh0bHulzmZ_3nXUpbRG-L4iEyivXmSDOsyJw/viewform"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <Button text="Записатися" btnClass="btnLight" />
-            </a>
-          </div>
         </div>
       </div>
     </div>
