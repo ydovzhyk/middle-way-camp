@@ -112,12 +112,12 @@
     height: auto;
     border: 2px solid var(--main-color);
     @include mixins.mq(tablet) {
-      width: 180px;
-      height: 180px;
+      width: 175px;
+      height: 175px;
     }
     @include mixins.mq(desktop) {
-      width: 290px;
-      height: 290px;
+      width: 310px;
+      height: 310px;
     }
   }
 
