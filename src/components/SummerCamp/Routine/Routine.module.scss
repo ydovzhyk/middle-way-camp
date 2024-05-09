@@ -108,8 +108,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: auto;
     border: 2px solid var(--main-color);
     @include mixins.mq(tablet) {
       width: 180px;

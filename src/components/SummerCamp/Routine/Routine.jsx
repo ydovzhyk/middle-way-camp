@@ -28,13 +28,13 @@ const Routine = () => {
                 </p>
               </div>
             </div>
-            <div
-              className={s.routine__partBox}
-              style={{
-                backgroundImage: `url(${image01})`,
-                backgroundSize: 'cover',
-              }}
-            ></div>
+            <div className={s.routine__partBox}>
+              <img
+                src={image01}
+                alt="Розклад дня 1"
+                className={s.routine__image}
+              />
+            </div>
             <div
               className={s.routine__partBox}
               style={{ backgroundColor: 'var(--main-color)' }}
@@ -46,20 +46,20 @@ const Routine = () => {
                 </p>
               </div>
             </div>
-            <div
-              className={s.routine__partBox}
-              style={{
-                backgroundImage: `url(${image02})`,
-                backgroundSize: 'cover',
-              }}
-            ></div>
-            <div
-              className={s.routine__partBox}
-              style={{
-                backgroundImage: `url(${image03})`,
-                backgroundSize: 'cover',
-              }}
-            ></div>
+            <div className={s.routine__partBox}>
+              <img
+                src={image02}
+                alt="Розклад дня 2"
+                className={s.routine__image}
+              />
+            </div>
+            <div className={s.routine__partBox}>
+              <img
+                src={image03}
+                alt="Розклад дня 3"
+                className={s.routine__image}
+              />
+            </div>
             <div
               className={s.routine__partBox}
               style={{ backgroundColor: 'var(--main-color)' }}
@@ -71,13 +71,13 @@ const Routine = () => {
                 </p>
               </div>
             </div>
-            <div
-              className={s.chooseUs__partBox}
-              style={{
-                backgroundImage: `url(${image04})`,
-                backgroundSize: 'cover',
-              }}
-            ></div>
+            <div className={s.chooseUs__partBox}>
+              <img
+                src={image04}
+                alt="Розклад дня 4"
+                className={s.routine__image}
+              />
+            </div>
             <div
               className={s.routine__partBox}
               style={{ backgroundColor: 'var(--main-color)' }}
@@ -100,13 +100,13 @@ const Routine = () => {
                 </p>
               </div>
             </div>
-            <div
-              className={s.routine__partBox}
-              style={{
-                backgroundImage: `url(${image05})`,
-                backgroundSize: 'cover',
-              }}
-            ></div>
+            <div className={s.routine__partBox}>
+              <img
+                src={image05}
+                alt="Розклад дня 5"
+                className={s.routine__image}
+              />
+            </div>
             <div
               className={s.routine__partBox}
               style={{ backgroundColor: 'var(--main-color)' }}
@@ -119,13 +119,13 @@ const Routine = () => {
                 </p>
               </div>
             </div>
-            <div
-              className={s.routine__partBox}
-              style={{
-                backgroundImage: `url(${image06})`,
-                backgroundSize: 'cover',
-              }}
-            ></div>
+            <div className={s.routine__partBox}>
+              <img
+                src={image06}
+                alt="Розклад дня 6"
+                className={s.routine__image}
+              />
+            </div>
           </div>
           <div className={s.routine__btnPart}>
             <a
